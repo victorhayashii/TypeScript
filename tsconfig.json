@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        //noEmitOnError faz com que ele nao compile os arquivos js enquanto tiver erro
+        "noEmitOnError": true,
+        "noImplicitAny": true
+    },
+    "include": ["app/**/*"]
+}
